@@ -32,7 +32,6 @@ while choice != '0':
     1:Add
     2:List
     3:Search
-    4:Number edit
-    
+    4:Number edit 
     0:Exit""")
-    choice = input("Enter your choice: ")
+    choice = input("Enter your choice : ")
