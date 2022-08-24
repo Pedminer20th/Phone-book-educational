@@ -21,8 +21,9 @@ while choice != 'Exit':
         search = input("Enter the name for search : ")
         for i in range(len(contacts)):
             if contacts[i][0] == search:
-                print("The result is : ",
-                      contacts[i][0], " : ", contacts[i][1])
+                print("The result is : ", contacts[i][0], " : ", contacts[i][1])
+            else :
+                print("Sorry i couldnt find what you looking for :(")
     elif choice == 'Edit':
         print("heres your list :", contacts)
         change = input("Enter the contact you want to edit : ")
@@ -44,5 +45,6 @@ while choice != 'Exit':
     List:show the current List
     Search:Search via name
     Edit:Number edit
+    Delete:Delete a contact
     Exit:Exit the program""")
     choice = input("Enter your choice : ")
